@@ -58,6 +58,10 @@ public class GameSceneController : MonoBehaviour
 
     private void ProcessInput()
     {
+
+        //reset if R is pressed
+        //return if game over
+        
         if(Input.GetMouseButtonDown(0))
         {
             Vector2 mousePosition = GameCamera.ScreenToWorldPoint(Input.mousePosition);
